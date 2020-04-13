@@ -12,7 +12,7 @@ for(int i=0;i<3;i++)
 for(int j=0;j<3;j++)
 {
 c[i][j]=a[i][j]+b[i][j];
-System.out.println("the addition"+[i][j]+"="+c[i][j]);
+System.out.println("the addition:"+c[i][j]);
 }
 }
 for(int i=0;i<3;i++)
@@ -24,7 +24,7 @@ for(int k=0;k<3;k++)
 sum=sum+a[i][k]*b[k][j];
 }
 d[i][j]=sum;
-System.out.println("the multiplication"+[i][j]+"="+d[i][j]);
+System.out.println("the multiplication:"+d[i][j]);
 }
 }
 }
